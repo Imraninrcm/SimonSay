@@ -54,7 +54,7 @@ function checkAns() {
       document.querySelector("body").style.backgroundColor = "red";
       setTimeout(() => {
         document.querySelector("body").style.backgroundColor = "white";
-      }, 150);
+      }, 1500);
       const audio = new Audio();
       audio.src = "game_over.mp3";
       audio.play();
